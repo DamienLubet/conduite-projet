@@ -4,3 +4,4 @@
 
 - Rédiger le backlog du projet dans le README.md
 - Rédiger l'architecture technique dans le README.md
+- Initialiser le dépôt GitHub de développement
