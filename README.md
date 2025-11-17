@@ -3,7 +3,7 @@
 Le but de ce projet est de développer une application web de gestion de projet.
 Le site contiendra les fonctionnalités suivantes :
 
-- Gestion des utilisateurs
+- Authentification des utilisateurs
 - Gestion des projets
 - Gestion des User Stories et des tâches
 - Gestion des sprints
@@ -25,7 +25,7 @@ L'application sera développée en utilisant les technologies suivantes :
 
 ## Backlog
 
-### Gestion des utilisateurs
+### Authentification des utilisateurs
 
 - US1 - En tant que visiteur, je souhaite m’enregistrer et me connecter afin de gérer mes projets. ( Priorité: Haute | Story point: 5)
   - T1.1 - Créer la table "User" dans la base de donnée
@@ -77,6 +77,10 @@ L'application sera développée en utilisant les technologies suivantes :
   - T10.1 - Créer une interface d’édition d’une tâche existante.
   - T10.2 - Implémenter la logique d’attribution d’une tâche à un collaborateur.
   - T10.3 - Implémenter la modification du statut d’une tâche (“à faire”, “en cours”, “terminée”).
+- US21 - En tant qu’utilisateur, je souhaite visualiser la liste des tâches associées à une User Story afin de suivre leur avancement. ( Priorité: Moyenne | Story point: 2)
+  - T21.1 - Créer une page listant les tâches d’une User Story.
+  - T21.2 - Implémenter la récupération des tâches associées à une User Story.
+  - T21.3 - Afficher les informations principales des tâches (description, responsable, statut).
 
 ### Gestion des sprints
 
