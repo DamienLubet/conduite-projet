@@ -1,0 +1,114 @@
+.project-list-container {
+  width: 100%;
+  padding: 2rem 2.5rem;
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.project-header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+.project-header-divider {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #30363d;
+  margin: 0 0 1.25rem 0;
+}
+
+.project-add-button {
+  background: #2563eb;
+  border: none;
+  color: #ffffff;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.6);
+  transition: background-color 0.12s ease, box-shadow 0.12s ease, transform 0.08s ease;
+}
+
+.project-add-button:hover {
+  background-color: #1d4ed8;
+  box-shadow: 0 6px 14px rgba(15, 23, 42, 0.8);
+  transform: translateY(-1px);
+}
+
+.project-add-button:active {
+  transform: translateY(0);
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.9);
+}
+
+.project-card-column {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1.25rem;
+  width: 100%;
+}
+
+.project-card {
+  background: #23272f;
+  border-radius: 6px;
+  padding: 1rem 1.1rem;
+  border: 1px solid #30363d;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.22);
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.08s ease, box-shadow 0.15s ease;
+}
+
+.project-card:hover {
+  background: #283046;
+  border-color: #3b82f6;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  transform: translateY(-1px);
+}
+
+.project-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.project-title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #e5e7eb;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.project-owner {
+  font-size: 0.78rem;
+  color: #9ca3af;
+  white-space: nowrap;
+  max-width: 40%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+
+.project-card p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #9ca3af;
+  line-height: 1.35;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
