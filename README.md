@@ -11,6 +11,11 @@ Le site contiendra les fonctionnalités suivantes :
 - Gestion des tests
 - Gestion de la documentation
 
+## Documentation du projet
+
+Une documentation complète du projet est disponible dans le [wiki du dépôt GitHub](https://github.com/DamienLubet/conduite-projet/wiki) concernant l'installation, le lancement/déploiement, l'architecture, et les fonctionnalités.
+Une documentation utilisateur est disponible dans `UserGuide.md`.
+
 ## Architecture technique
 
 L'application sera développée en utilisant les technologies suivantes :
